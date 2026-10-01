@@ -48,10 +48,16 @@ Most of the work went into making it hard to abuse. It protects against three th
 
 ## Setup
 
-You need Node.js 18 or newer.
+Tested with Node.js 24.
 
 ```bash
 npm install
+```
+
+If `npm install` fails on Windows with a `node-gyp` or "Visual Studio" error, use this instead. `better-sqlite3` already includes a ready-made Windows binary, so nothing needs to be compiled:
+
+```bash
+npm install --ignore-scripts
 ```
 
 ## How to run
