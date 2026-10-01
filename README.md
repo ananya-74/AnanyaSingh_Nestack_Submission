@@ -4,7 +4,7 @@ This is my submission for the Nestack backend assessment. It is a small OTP logi
 
 Most of the work went into making it hard to abuse. It protects against three things: someone guessing the code, someone spamming the send endpoint, and someone reusing a code that was already used.
 
-**Live deployment:** https://YOUR-DEPLOYMENT-URL-HERE
+**Live deployment:** https://ananya-otp-system.onrender.com
 
 **Credentials:** none needed. There are no accounts or passwords. Any email or phone string works as an identifier, and the OTP is printed in the server console.
 
