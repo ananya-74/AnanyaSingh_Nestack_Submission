@@ -6,6 +6,13 @@ const app = express();
 // lets us read JSON request bodies
 app.use(express.json());
 
+// simple message so opening the link in a browser doesn't show an error
+app.get('/', (req, res) => {
+  res.json({
+    message: 'OTP API is running. Use POST /auth/send and POST /auth/verify.',
+  });
+});
+
 app.use('/auth', authRoutes);
 
 // if the request body is not valid JSON, answer with a clean 400

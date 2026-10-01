@@ -248,4 +248,4 @@ I deployed this as a web service on Render. The steps:
 
 **OTPs on the live service:** the code is only printed in the service logs, as explained in the console section above.
 
-**Live URL:** https://YOUR-DEPLOYMENT-URL-HERE
+**Live URL:** https://ananya-otp-system.onrender.com
